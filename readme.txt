@@ -39,6 +39,7 @@ Modern coding practices demand the ability to leverage modern techniques. The le
 == Screenshots ==
 
 1. The Add Support Account panel
+2. Add Account confirmation panel
 2. 'Expires' column in the Users list table
 
 == Changelog ==
