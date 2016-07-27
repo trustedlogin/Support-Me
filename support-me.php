@@ -5,7 +5,7 @@
  * Plugin Author: Drew Jaynes
  * Plugin URI: https://wordpress.org/plugins/support-me/
  * Author URI: http://werdswords.com
- * Version: 1.0.0
+ * Version: 1.0.2
  * License: GPLv2
  */
 

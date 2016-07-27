@@ -4,7 +4,7 @@ Donate link: http://www.werdswords.com
 Tags: support, account, users
 Requires at least: 3.5.0
 Tested up to: 4.6.0
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
 Allows you to generate expireable user accounts for support purposes.
 
@@ -43,6 +43,10 @@ Modern coding practices demand the ability to leverage modern techniques. The le
 2. 'Expires' column in the Users list table
 
 == Changelog ==
+
+= 1.0.2 =
+
+* Tagging mania.
 
 = 1.0.1 =
 
