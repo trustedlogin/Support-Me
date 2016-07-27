@@ -1,13 +1,11 @@
 <?php
 /**
- * Support_Me\Setup class
+ * Support_Me\Account\Setup class
  *
- * @package Support_Me\Setup
+ * @package Support_Me\Account\Setup
  * @since 1.0.0
  */
-namespace Support_Me;
-
-use Support_Me\Account\Utils as Utils;
+namespace Support_Me\Account;
 
 /**
  * Implements methods for interacting with temporary accounts.
@@ -82,9 +80,9 @@ class Setup {
 	 * @access public
 	 */
 	public function setup_accounts() {
-		$this->management = new Account\Management();
-		$this->panel      = new Account\Panel();
-		$this->utils      = new Account\Utils();
+		$this->management = new Management();
+		$this->panel      = new Panel();
+		$this->utils      = new Utils();
 	}
 
 	/**

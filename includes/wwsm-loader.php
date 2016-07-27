@@ -49,7 +49,7 @@ namespace Support_Me {
 
 				self::$instance->load_files();
 
-				new Setup();
+				new Account\Setup();
 
 				// 4.6 handles loading the plugin text domain just-in-time.
 				if ( version_compare( $GLOBALS['wp_version'], '4.6', '<' ) ) {
@@ -68,7 +68,7 @@ namespace Support_Me {
 		 */
 		public function load_files() {
 			// Setup.
-			require_once( 'wwsm-setup.php' );
+			require_once( 'accounts/wwsm-account-setup.php' );
 
 			// Accounts.
 			require_once( 'accounts/wwsm-account-management.php' );

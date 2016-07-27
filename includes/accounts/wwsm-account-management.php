@@ -7,9 +7,6 @@
  */
 namespace Support_Me\Account;
 
-use Support_Me\Setup;
-use Support_Me\Account\Utils;
-
 /**
  * Implements methods for creating and managing support accounts.
  *

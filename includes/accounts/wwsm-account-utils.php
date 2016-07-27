@@ -7,8 +7,6 @@
  */
 namespace Support_Me\Account;
 
-use Support_Me\Setup;
-
 /**
  * Implements utility functions for Support Me.
  *
