@@ -1,0 +1,103 @@
+/**
+ * Support Me stylesheet enqueued on wp-admin/users.php.
+ *
+ * @package WW_Support_Me
+ * @since 1.0.0
+ */
+
+.add-account-panel {
+	border: 1px solid #ccc;
+	padding: 0px 20px 20px;
+	margin: 10px 0 20px;
+	display: none;
+	position: relative;
+}
+
+.show-add-account-panel .add-account-panel {
+	display: block;
+}
+
+.form-table .wwsm-choice {
+	display: block;
+}
+
+.expire-interval {
+	display: inline-block;
+	position: relative;
+	top: -1px;
+}
+
+.add-account-panel .add-account-panel-dismiss {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 10px 15px 10px 21px;
+	font-size: 13px;
+	line-height: 1.23076923; /* Chrome rounding, needs to be 16px equivalent */
+	text-decoration: none;
+}
+
+.add-account-panel .add-account-panel-dismiss:before {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	-webkit-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+	content: "\f153";
+	display: block;
+	font: normal 16px/20px dashicons;
+	speak: none;
+	height: 20px;
+	text-align: center;
+	width: 20px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.add-account-panel .add-account-panel-dismiss:hover:before,
+.add-account-panel .add-account-panel-dismiss:focus:before {
+	color: #c00;
+}
+
+#expire-amount {
+	width: 60px;
+}
+
+#wwsm-success,
+#wwsm-failure {
+	display: none;
+}
+
+.wwsm-notice {
+	padding: 10px;
+}
+
+.add-account-result {
+	display: none;
+}
+
+.add-account-result ul {
+	list-style: outside none none;
+}
+
+.add-account-result ul li {
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+.add-account-result button {
+	display: inline-block;
+}
+
+.add-account-result blockquote {
+	margin: 10px 0;
+	padding: 20px;
+	background-color: #ffffff;
+}
+
+.wwsm-username,
+.wwsm-token,
+.wwsm-expires {
+	display: block;
+}
+
