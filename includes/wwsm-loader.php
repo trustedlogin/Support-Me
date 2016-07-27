@@ -32,7 +32,7 @@ namespace Support_Me {
 		 * @access private
 		 * @var string
 		 */
-		private $version = '1.0.0';
+		private $version = '1.0.1';
 
 		/**
 		 * Creates the single great instance of Support_Me.
