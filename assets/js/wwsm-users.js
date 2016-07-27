@@ -1,7 +1,7 @@
 /**
  * JavaScript enqueued on wp-admin/users.php
  *
- * @package WW_Support_Me
+ * @package Support_Me\Assets
  * @since 1.0.0
  */
 

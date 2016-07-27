@@ -2,7 +2,7 @@
 /**
  * Support Me loader
  *
- * @package Support_Me\Setup
+ * @package Support_Me
  * @since 1.0.0
  */
 

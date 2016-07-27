@@ -37,7 +37,7 @@ function ww_support_me_admin_notice() {
 if ( version_compare( PHP_VERSION, '5.3', '<' ) ) {
 	add_action( 'admin_notices', 'ww_support_me_admin_notice' );
 } else {
-	register_activation_hook( __FILE__, array( 'Support_Me\Setup', 'add_support_role' ) );
+	register_activation_hook( __FILE__, array( 'Support_Me\Account\Setup', 'add_support_role' ) );
 
 	if ( ! defined( 'WWSM_PLUGIN_DIR' ) ) {
 		/**

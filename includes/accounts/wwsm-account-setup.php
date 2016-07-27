@@ -144,8 +144,8 @@ class Setup {
 		 *
 		 * @since 1.0.0
 		 *
-		 * @param array             $disallowed_caps Capabilities to explicitly disallow for support accounts.
-		 * @param \Support_Me\Setup $this            Setup instance.
+		 * @param array                     $disallowed_caps Capabilities to explicitly disallow for support accounts.
+		 * @param \Support_Me\Account\Setup $this            Setup instance.
 		 */
 		$disallowed_caps = apply_filters( 'wwsm_disallowed_caps', $disallowed_caps, $this );
 
