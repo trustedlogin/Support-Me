@@ -230,7 +230,7 @@ class Setup {
 		add_role(
 			self::$support_role,
 			__( 'Support Account', 'support-me' ),
-			$caps
+			$admin->capabilities
 		);
 	}
 }
