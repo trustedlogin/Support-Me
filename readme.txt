@@ -4,7 +4,7 @@ Donate link: http://www.werdswords.com
 Tags: support, account, users
 Requires at least: 3.5.0
 Tested up to: 4.6.0
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 
 Allows you to generate expireable user accounts for support purposes.
 
@@ -30,6 +30,14 @@ Support Me is also fully compatible with debugging plugins such as Debug Bar, en
 
 This plugin is in active development <a href="https://github.com/DrewAPicture/support-me" target="_new">on GitHub</a>. Pull requests are welcome!
 
+<strong>Thank you to our <a href="https://translate.wordpress.org/projects/wp-plugins/support-me">community translators</a> on WordPress.org:</strong>
+
+* English (UK) – <a href="https://profiles.wordpress.org/garyj/">Gary Jones</a> (@GaryJ)
+* French (France) – <a href="https://profiles.wordpress.org/fxbenard/">François-Xavier Bénard</a> (@fxbenard)
+* German – <a href="https://profiles.wordpress.org/pixolin/">Bego Mario Garde</a> (@pixolin)
+* German (Formatl) – <a href="https://profiles.wordpress.org/pixolin/">Bego Mario Garde</a> (@pixolin)
+* Russian – <a href="https://profiles.wordpress.org/sergeybiryukov/">Sergey Biryukov</a> (@SergeyBiryukov)
+
 == Frequently Asked Questions ==
 
 = Does this plugin realy require a minimum of PHP 5.3? Why? =
@@ -43,6 +51,11 @@ Modern coding practices demand the ability to leverage modern techniques. The le
 2. 'Expires' column in the Users list table
 
 == Changelog ==
+
+= 1.0.5 =
+
+* Made one complex string more easily translatable.
+* Added translator credits to the readme.
 
 = 1.0.4 =
 

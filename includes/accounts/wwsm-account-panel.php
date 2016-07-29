@@ -109,7 +109,7 @@ final class Panel {
 									<input type="radio" name="expire-type" value="time" checked="checked" />
 									<?php
 									/* translators: 1: Number of time interval input, 2: Time interval input (minutes, hours, days) */
-									printf( __( 'Expires in: %s %s', 'support-me' ),
+									printf( __( 'Expires in: %1$s %2$s', 'support-me' ),
 										'<input name="expire-amount" type="number" min="1" id="expire-amount" value="4" />',
 										'<select id="expire-interval" name="expire-interval" class="expire-interval">'
 											. '<option value="minutes">' . esc_html( $minutes ) . '</option>'
