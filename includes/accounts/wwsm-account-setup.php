@@ -167,7 +167,7 @@ class Setup {
 	 * @return array Filtered columns.
 	 */
 	public function add_expires_column( $columns ) {
-		$expires_column = array( 'expiration' => _x( 'Expires', 'column header' 'support-me' ) );
+		$expires_column = array( 'expiration' => _x( 'Expires', 'column header', 'support-me' ) );
 
 		// Add after the 'Name' column.
 		return array_merge( array_slice( $columns, 0, 3 ), $expires_column, array_slice( $columns, 3 ) );
