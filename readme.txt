@@ -35,7 +35,8 @@ This plugin is in active development <a href="https://github.com/DrewAPicture/su
 * English (UK) – <a href="https://profiles.wordpress.org/garyj/">Gary Jones</a> (@GaryJ)
 * French (France) – <a href="https://profiles.wordpress.org/fxbenard/">François-Xavier Bénard</a> (@fxbenard)
 * German – <a href="https://profiles.wordpress.org/pixolin/">Bego Mario Garde</a> (@pixolin)
-* German (Formatl) – <a href="https://profiles.wordpress.org/pixolin/">Bego Mario Garde</a> (@pixolin)
+* German (Formal) – <a href="https://profiles.wordpress.org/pixolin/">Bego Mario Garde</a> (@pixolin)
+* Italian – <a href="https://profiles.wordpress.org/wolly/">Paolo Valenti</a> (@wolly)
 * Russian – <a href="https://profiles.wordpress.org/sergeybiryukov/">Sergey Biryukov</a> (@SergeyBiryukov)
 
 == Frequently Asked Questions ==
