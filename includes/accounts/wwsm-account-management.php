@@ -57,7 +57,7 @@ class Management {
 			'user_login'   => strtolower( 'support_' . wp_generate_password( 6, false ) ),
 			'user_pass'    => wp_generate_password( 24, true ),
 			'user_email'   => Utils::generate_email_address(),
-			'display_name' => _x( 'Support Account', 'support account name', 'support-me' ),
+			'display_name' => _x( 'Support Account', 'user display name', 'support-me' ),
 			'role'         => Setup::$support_role,
 		) );
 
@@ -80,7 +80,7 @@ class Management {
 
 			$expires_string = date( $format, $expiration ) . ' UTC';
 		} else {
-			$expires_string = __( 'Never', 'support-me' );
+			$expires_string = __( 'Never Expires', 'support-me' );
 		}
 
 		/** @var \WP_User $user */
