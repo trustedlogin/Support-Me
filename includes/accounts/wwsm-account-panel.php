@@ -50,7 +50,7 @@ final class Panel {
 			<h3 class="add-account-panel-header"><?php esc_html_e( 'Add Support Account', 'support-me' ); ?></h3>
 			<div class="add-account-result">
 				<p><?php _e( 'Copy and paste the account information below into whichever <em>private</em> support channel you&#8217;re providing login credentials for.', 'support-me' ); ?></p>
-				<p><?php _e( '<strong>Important Notes:</strong>', 'support-me' ); ?></p>
+				<p><strong><?php esc_html_e( 'Important Notes:', 'support-me' ); ?></strong></p>
 				<ul>
 					<li><?php _e( 'You should <strong>never</strong> post login credentials in a public support forum -- anyone could click it and gain instant access to your website.', 'support-me' ); ?></li>
 					<li><?php _e( 'Once the password URL has been used to set an account password, it will never work again.', 'support-me' ); ?></li>
