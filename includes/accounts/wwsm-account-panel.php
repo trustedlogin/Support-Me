@@ -46,7 +46,7 @@ final class Panel {
 			<div id="wwsm-failure" class="notice notice-warning wwsm-notice is-dismissible">
 				<?php esc_html_e( 'The new support account could not be created. Please try again.', 'support-me' ); ?>
 			</div>
-			<a class="add-account-panel-dismiss" href="#add-account-dismiss"><?php echo esc_html_e( 'Close Panel', 'support-me' ); ?></a>
+			<a class="add-account-panel-dismiss" href="#add-account-dismiss"><?php esc_html_e( 'Close Panel', 'support-me' ); ?></a>
 			<h3 class="add-account-panel-header"><?php esc_html_e( 'Add Support Account', 'support-me' ); ?></h3>
 			<div class="add-account-result">
 				<p><?php _e( 'Copy and paste the account information below into whichever <em>private</em> support channel you&#8217;re providing login credentials for.', 'support-me' ); ?></p>
