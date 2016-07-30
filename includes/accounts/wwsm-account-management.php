@@ -47,7 +47,7 @@ class Management {
 		// If no data, bail.
 		if ( empty( $_REQUEST['formdata'] ) ) {
 			wp_send_json_error(
-				new \WP_Error( 'wwsm_no_data', __( 'No data was found.', 'support-me' ) )
+				new \WP_Error( 'wwsm_no_data', esc_html__( 'No data was found.', 'support-me' ) )
 			);
 		}
 
@@ -80,7 +80,7 @@ class Management {
 
 			$expires_string = date( $format, $expiration ) . ' UTC';
 		} else {
-			$expires_string = __( 'Never Expires', 'support-me' );
+			$expires_string = esc_html__( 'Never Expires', 'support-me' );
 		}
 
 		/** @var \WP_User $user */

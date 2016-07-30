@@ -102,9 +102,9 @@ final class Panel {
 
 								<label class="wwsm-choice">
 									<?php
-									$minutes = __( 'Minutes', 'support-me' );
-									$hours   = __( 'Hours', 'support-me' );
-									$days    = __( 'Days', 'support-em' );
+									$minutes = esc_html__( 'Minutes', 'support-me' );
+									$hours   = esc_html__( 'Hours', 'support-me' );
+									$days    = esc_html__( 'Days', 'support-em' );
 									?>
 									<input type="radio" name="expire-type" value="time" checked="checked" />
 									<?php
@@ -180,9 +180,9 @@ final class Panel {
 		wp_enqueue_script( 'wwsm-users-js', WWSM_PLUGIN_URL . 'assets/js/wwsm-users.js', array( 'wp-util' ), false, true );
 
 		wp_localize_script( 'wwsm-users-js', 'wwsmi10n', array(
-			'addAccountButtonText' => __( 'Add Support Account', 'support-me' ),
-			'accountInformation'   => __( 'Support Account Information', 'support-me' ),
-			'addAccountError'      => __( 'An Error Occurred', 'support-me' ),
+			'addAccountButtonText' => esc_html__( 'Add Support Account', 'support-me' ),
+			'accountInformation'   => esc_html__( 'Support Account Information', 'support-me' ),
+			'addAccountError'      => esc_html__( 'An Error Occurred', 'support-me' ),
 		) );
 	}
 
