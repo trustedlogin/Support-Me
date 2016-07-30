@@ -59,16 +59,18 @@ final class Panel {
 				<blockquote>
 					<span class="wwsm-username">
 						<?php
-						/* translators: 1: Generated username */
-						printf( __( '<strong>Username:</strong> %s', 'support-me' ),
+						printf(
+							'<strong>%1$s</strong> %2$s',
+							esc_html__( 'Username:', 'support-me' ),
 							'<span class="username-result"></span>'
 						);
 						?>
 					</span>
 					<span class="wwsm-token">
 						<?php
-						/* translators: 1: Password reset URL */
-						printf( __( '<strong>Password URL:</strong> %s', 'support-me' ),
+						printf(
+							'<strong>%1$s</strong> %2$s',
+							esc_html__( 'Password URL:', 'support-me' ),
 							'<span class="token-result"></span>'
 						);
 						?>
@@ -76,8 +78,9 @@ final class Panel {
 					<p>
 						<span class="wwsm-expires">
 							<?php
-							/* translators: 1: Expiration date (UTC) */
-							printf( __( '<strong>Account Expires:</strong> %s', 'support-me' ),
+							printf(
+								'<strong>%1$s</strong> %2$s',
+								esc_html__( 'Account Expires:', 'support-me' ),
 								'<span class="expires-result"></span>'
 							);
 							?>
