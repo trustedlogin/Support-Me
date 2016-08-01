@@ -59,6 +59,7 @@ Modern coding practices demand the ability to leverage modern techniques. The le
 = 1.0.6 =
 
 * Added additional translator credits for Hebrew, Japanese, and Nepali.
+* General i18n improvements – props @ramiy
 
 = 1.0.5 =
 
