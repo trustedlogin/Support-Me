@@ -190,7 +190,7 @@ class Setup {
 		if ( $user = get_user_by( 'id', $user_id ) ) {
 			if ( in_array( self::$support_role, $user->roles ) ) {
 				$expiration = get_user_meta( $user->ID, 'wwsm_expiration', true );
-				$output     = $expiration ? human_time_diff( time(), $expiration )  : __( 'Never Expires', 'support-me' );
+				$output     = $expiration ? human_time_diff( time(), $expiration )  : esc_html__( 'Never Expires', 'support-me' );
 			} else {
 				$output = '&mdash;';
 			}

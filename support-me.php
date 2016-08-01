@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function ww_support_me_admin_notice() {
 	$notice  = '<div class="error notice is-dismissible">';
-		$notice .= '<p>' . __( 'Your version of PHP is below the minimum required by the Support Me plugin. Please contact your web host and request that your PHP version be upgraded to 5.3 or later.', 'support-me' ) . '</p>';
+		$notice .= '<p>' . esc_html__( 'Your version of PHP is below the minimum required by the Support Me plugin. Please contact your web host and request that your PHP version be upgraded to 5.3 or later.', 'support-me' ) . '</p>';
 	$notice .= '</div>';
 
 	echo $notice;

@@ -46,11 +46,11 @@ final class Panel {
 			<div id="wwsm-failure" class="notice notice-warning wwsm-notice is-dismissible">
 				<?php esc_html_e( 'The new support account could not be created. Please try again.', 'support-me' ); ?>
 			</div>
-			<a class="add-account-panel-dismiss" href="#add-account-dismiss"><?php echo esc_html_e( 'Close Panel', 'support-me' ); ?></a>
+			<a class="add-account-panel-dismiss" href="#add-account-dismiss"><?php esc_html_e( 'Close Panel', 'support-me' ); ?></a>
 			<h3 class="add-account-panel-header"><?php esc_html_e( 'Add Support Account', 'support-me' ); ?></h3>
 			<div class="add-account-result">
 				<p><?php _e( 'Copy and paste the account information below into whichever <em>private</em> support channel you&#8217;re providing login credentials for.', 'support-me' ); ?></p>
-				<p><?php _e( '<strong>Important Notes:</strong>', 'support-me' ); ?></p>
+				<p><strong><?php esc_html_e( 'Important Notes:', 'support-me' ); ?></strong></p>
 				<ul>
 					<li><?php _e( 'You should <strong>never</strong> post login credentials in a public support forum -- anyone could click it and gain instant access to your website.', 'support-me' ); ?></li>
 					<li><?php _e( 'Once the password URL has been used to set an account password, it will never work again.', 'support-me' ); ?></li>
@@ -59,16 +59,18 @@ final class Panel {
 				<blockquote>
 					<span class="wwsm-username">
 						<?php
-						/* translators: 1: Generated username */
-						printf( __( '<strong>Username:</strong> %s', 'support-me' ),
+						printf(
+							'<strong>%1$s</strong> %2$s',
+							esc_html__( 'Username:', 'support-me' ),
 							'<span class="username-result"></span>'
 						);
 						?>
 					</span>
 					<span class="wwsm-token">
 						<?php
-						/* translators: 1: Password reset URL */
-						printf( __( '<strong>Password URL:</strong> %s', 'support-me' ),
+						printf(
+							'<strong>%1$s</strong> %2$s',
+							esc_html__( 'Password URL:', 'support-me' ),
 							'<span class="token-result"></span>'
 						);
 						?>
@@ -76,8 +78,9 @@ final class Panel {
 					<p>
 						<span class="wwsm-expires">
 							<?php
-							/* translators: 1: Expiration date (UTC) */
-							printf( __( '<strong>Account Expires:</strong> %s', 'support-me' ),
+							printf(
+								'<strong>%1$s</strong> %2$s',
+								esc_html__( 'Account Expires:', 'support-me' ),
 								'<span class="expires-result"></span>'
 							);
 							?>
@@ -102,9 +105,9 @@ final class Panel {
 
 								<label class="wwsm-choice">
 									<?php
-									$minutes = __( 'Minutes', 'support-me' );
-									$hours   = __( 'Hours', 'support-me' );
-									$days    = __( 'Days', 'support-em' );
+									$minutes = esc_html__( 'Minutes', 'support-me' );
+									$hours   = esc_html__( 'Hours', 'support-me' );
+									$days    = esc_html__( 'Days', 'support-em' );
 									?>
 									<input type="radio" name="expire-type" value="time" checked="checked" />
 									<?php
@@ -180,9 +183,9 @@ final class Panel {
 		wp_enqueue_script( 'wwsm-users-js', WWSM_PLUGIN_URL . 'assets/js/wwsm-users.js', array( 'wp-util' ), false, true );
 
 		wp_localize_script( 'wwsm-users-js', 'wwsmi10n', array(
-			'addAccountButtonText' => __( 'Add Support Account', 'support-me' ),
-			'accountInformation'   => __( 'Support Account Information', 'support-me' ),
-			'addAccountError'      => __( 'An Error Occurred', 'support-me' ),
+			'addAccountButtonText' => esc_html__( 'Add Support Account', 'support-me' ),
+			'accountInformation'   => esc_html__( 'Support Account Information', 'support-me' ),
+			'addAccountError'      => esc_html__( 'An Error Occurred', 'support-me' ),
 		) );
 	}
 
