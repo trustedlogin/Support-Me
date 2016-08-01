@@ -38,6 +38,9 @@ This plugin is in active development <a href="https://github.com/DrewAPicture/su
 * German (Formal) – <a href="https://profiles.wordpress.org/pixolin/">Bego Mario Garde</a> (@pixolin)
 * Italian – <a href="https://profiles.wordpress.org/wolly/">Paolo Valenti</a> (@wolly)
 * Russian – <a href="https://profiles.wordpress.org/sergeybiryukov/">Sergey Biryukov</a> (@SergeyBiryukov)
+* Hebrew – <a href="https://profiles.wordpress.org/ramiy/">Rami Yushuvaev</a> (@ramiy)
+* Japanese – <a href="https://profiles.wordpress.org/nao/">Naoko Takano</a> (@nao)
+* Nepali – <a href="https://profiles.wordpress.org/rabmalin/">Nilambar Sharma</a> (@rabmalin)
 
 == Frequently Asked Questions ==
 
@@ -52,6 +55,10 @@ Modern coding practices demand the ability to leverage modern techniques. The le
 2. 'Expires' column in the Users list table
 
 == Changelog ==
+
+= 1.0.6 =
+
+* Added additional translator credits for Hebrew, Japanese, and Nepali.
 
 = 1.0.5 =
 
