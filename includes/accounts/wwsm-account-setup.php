@@ -59,7 +59,7 @@ class Setup {
 	 */
 	public function __construct() {
 		// Capabilities.
-		add_filter( 'user_has_cap',               array( $this, 'grant_caps'             )         );
+		add_filter( 'user_has_cap',               array( $this, 'grant_caps'             ), 10,  3 );
 		add_filter( 'map_meta_cap',               array( $this, 'map_meta_cap'           ), 100, 3 );
 
 		// Expires column.
@@ -94,11 +94,21 @@ class Setup {
 	 * @since 1.0.0
 	 * @access public
 	 *
-	 * @param array $caps Capabilities.
+	 * @param  array $caps          User's capabilities.
+	 * @param  array $required_caps Actual required capabilities for the requested capability.
+	 * @param  array $args          Arguments that accompany the requested capability check:
+	 *                              [0] => Requested capability from current_user_can()
+	 *                              [1] => Current user ID
+	 *                              [2] => Optional second parameter from current_user_can()
 	 * @return array Filtered capabilities if admin.
 	 */
-	public function grant_caps( $caps ) {
-		$roles = wp_get_current_user()->roles;
+	public function grant_caps( $caps, $required_caps, $args ) {
+		$user = get_userdata( $args[1] );
+
+		if ( ! $user ) {
+			return $caps;
+		}
+		$roles = $user->roles;
 
 		// If the current user is a support admin, bail.
 		if ( in_array( self::$support_role, $roles ) ) {

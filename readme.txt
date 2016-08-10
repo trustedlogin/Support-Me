@@ -44,7 +44,7 @@ This plugin is in active development <a href="https://github.com/DrewAPicture/su
 
 == Frequently Asked Questions ==
 
-= Does this plugin realy require a minimum of PHP 5.3? Why? =
+= Does this plugin really require a minimum of PHP 5.3? Why? =
 
 Modern coding practices demand the ability to leverage modern techniques. The leap in functionality and speed between PHP 5.2 and modern versions like 5.6 or 7 are exponential.
 
