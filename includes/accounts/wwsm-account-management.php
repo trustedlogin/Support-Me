@@ -42,6 +42,10 @@ class Management {
 	 * @access public
 	 */
 	public function add_account() {
+		if ( ! current_user_can( 'manage_support_accounts' ) ) {
+			wp_send_json_error();
+		}
+
 		check_ajax_referer( 'wwsm_add_account', 'nonce' );
 
 		// If no data, bail.
