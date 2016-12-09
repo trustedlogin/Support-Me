@@ -1,3 +1,9 @@
+[![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/query-monitor.svg?style=flat-square)](https://wordpress.org/plugins/query-monitor/)
+[![License](https://img.shields.io/badge/license-GPL_v2%2B-blue.svg?style=flat-square)](http://opensource.org/licenses/GPL-2.0)
+[![Documentation](https://img.shields.io/badge/docs-stable-blue.svg?style=flat-square)](https://docs.querymonitor.com/en/stable/)
+[![WordPress Tested](https://img.shields.io/wordpress/v/query-monitor.svg?style=flat-square)](https://wordpress.org/plugins/query-monitor/)
+[![Build Status](https://img.shields.io/travis/johnbillion/query-monitor/master.svg?style=flat-square)](https://travis-ci.org/johnbillion/query-monitor)
+
 === Support Me ===
 Contributors: DrewAPicture
 Donate link: http://www.werdswords.com
@@ -44,7 +50,7 @@ This plugin is in active development <a href="https://github.com/DrewAPicture/su
 
 == Frequently Asked Questions ==
 
-= Does this plugin really require a minimum of PHP 5.3? Why? =
+= Does this plugin realy require a minimum of PHP 5.3? Why? =
 
 Modern coding practices demand the ability to leverage modern techniques. The leap in functionality and speed between PHP 5.2 and modern versions like 5.6 or 7 are exponential.
 
