@@ -4,7 +4,7 @@ Donate link: http://www.werdswords.com
 Tags: support, account, users
 Requires at least: 3.5.0
 Tested up to: 4.8.0
-Stable tag: 1.0.7
+Stable tag: 1.0.6
 
 Allows you to generate expireable user accounts for support purposes.
 
@@ -56,12 +56,9 @@ Modern coding practices demand the ability to leverage modern techniques. The le
 
 == Changelog ==
 
-= 1.0.7 =
-
-* Fix compatibility with 4.8+ (due to the reconfiguration of h1 elements on core admin screens).
-
 = 1.0.6 =
 
+* Fix compatibility with 4.8+ (due to the reconfiguration of h1 elements on core admin screens).
 * Added additional translator credits for Hebrew, Japanese, and Nepali.
 * General i18n improvements – props @ramiy
 
