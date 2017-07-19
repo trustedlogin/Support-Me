@@ -1,4 +1,4 @@
-[![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/query-monitor.svg?style=flat-square)](https://wordpress.org/plugins/support-me/)
+[![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/support-me.svg?style=flat-square)](https://wordpress.org/plugins/support-me/)
 [![License](https://img.shields.io/badge/license-GPL_v2%2B-blue.svg?style=flat-square)](http://opensource.org/licenses/GPL-2.0)
 [![WordPress Tested](https://img.shields.io/wordpress/v/support-me.svg?style=flat-square)](https://wordpress.org/plugins/support-me/)
 
