@@ -21,7 +21,7 @@
 			.addClass( 'wwsm-toggle-panel' )
 			.attr( 'href', '#add-account' );
 
-		addUsersButton.parent( 'h1' ).append( newButton );
+		newButton.insertAfter( addUsersButton );
 	}
 
 	var togglePanel = function( event ) {
