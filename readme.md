@@ -7,7 +7,7 @@ Contributors: DrewAPicture
 Donate link: http://www.werdswords.com
 Tags: support, account, users
 Requires at least: 3.5.0
-Tested up to: 4.8.0
+Tested up to: 5.5
 Stable tag: 1.0.6
 
 Allows you to generate expireable user accounts for support purposes.
