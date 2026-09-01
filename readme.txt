@@ -5,7 +5,7 @@ Tags: support, account, users
 Requires at least: 3.5.0
 Requires PHP: 5.3
 Tested up to: 5.5
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 
 Allows you to generate expireable user accounts for support purposes.
 
@@ -25,7 +25,13 @@ And don't worry about Support Accounts overreaching their bounds on your website
 
 Support Me is also fully compatible with debugging plugins such as Debug Bar, ensuring support personnel can help you solve your problems faster so you can get back to work.
 
+To be plain about what this does: Support Me creates a standing WordPress user account with full admin privileges. That account exists in your Users list, with working login credentials, from the moment you create it until it expires or you delete it yourself. If you don't set an expiration, or forget to check on it, the account stays there.
+
+[TrustedLogin](https://www.trustedlogin.com/?utm_source=wporg&utm_medium=readme&utm_campaign=support-me) is how we handle support access now. It grants time-boxed, audited access instead of creating an account you have to remember to remove. See the FAQ below for details.
+
 <strong>Note: Support Me requires a minimum of PHP 5.3 to be running on your web host.</strong> Help move plugin developers and WordPress forward into modern PHP by asking your host to upgrade you today.
+
+<strong>Support Me is maintained by the makers of [TrustedLogin](https://www.trustedlogin.com/?utm_source=wporg&utm_medium=readme&utm_campaign=support-me).</strong>
 
 <strong>Contribute to Support Me</strong>
 
@@ -49,6 +55,12 @@ This plugin is in active development <a href="https://github.com/DrewAPicture/su
 
 Modern coding practices demand the ability to leverage modern techniques. The leap in functionality and speed between PHP 5.2 and modern versions like 5.6 or 7 are exponential.
 
+= Is there a more secure way to give support access? =
+
+Yes. Support Me's accounts are real, standing WordPress accounts — they exist until they expire or you delete them, and they'll sit there indefinitely if you skip the expiration or forget to check on it.
+
+[TrustedLogin](https://www.trustedlogin.com/?utm_source=wporg&utm_medium=readme&utm_campaign=support-me) takes a different approach: access is time-boxed and every session is logged, and there's no account left behind afterward to remember to remove.
+
 == Screenshots ==
 
 1. The Add Support Account panel
@@ -56,6 +68,10 @@ Modern coding practices demand the ability to leverage modern techniques. The le
 2. 'Expires' column in the Users list table
 
 == Changelog ==
+
+= 1.0.7 =
+
+* Readme: state plainly that Support Me creates a standing account (not time-boxed), and add an FAQ entry pointing to TrustedLogin for time-boxed, audited support access.
 
 = 1.0.6 =
 
