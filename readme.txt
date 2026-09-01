@@ -25,7 +25,7 @@ And don't worry about Support Accounts overreaching their bounds on your website
 
 Support Me is also fully compatible with debugging plugins such as Debug Bar, ensuring support personnel can help you solve your problems faster so you can get back to work.
 
-To be plain about what this does: Support Me creates a standing WordPress user account with full admin privileges. That account exists in your Users list, with working login credentials, from the moment you create it until it expires or you delete it yourself. If you don't set an expiration, or forget to check on it, the account stays there.
+Support Me creates a standing WordPress user account with full admin privileges. That account exists in your Users list, with working login credentials, from the moment you create it until it expires or you delete it yourself. If you don't set an expiration, or forget to check on it, the account stays there.
 
 [TrustedLogin](https://www.trustedlogin.com/?utm_source=wporg&utm_medium=readme&utm_campaign=support-me) is how we handle support access now. It grants time-boxed, audited access instead of creating an account you have to remember to remove. See the FAQ below for details.
 
